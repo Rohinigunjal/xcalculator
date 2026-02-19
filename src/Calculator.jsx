@@ -1,3 +1,4 @@
+/* eslint-disable no-new-func */
 import React, { useState } from "react";
 import styles from "./Calculator.module.css";
 
