@@ -16,11 +16,9 @@ const Calculator = () =>
   }
 
   function getResult(){
-    if(data===""){
+    if(!data){
       setResult("Error");
-    }
-    else{
-       setResult(eval(data));
+      return;
     }
    
   }
